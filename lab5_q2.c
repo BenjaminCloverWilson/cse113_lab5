@@ -24,48 +24,17 @@ enum color
     BLUE,
     INDIGO = 14,
     VIOLET
-} c;
+};
 
 int main()
 {
-    int i;
-
-    for(i = 0; i < 7; i++)
-    {
-        switch(i)
-        {
-            case 0:
-                c = RED;
-                printf("RED: %d\n", c);
-                break;
-            case 1:
-                c = ORANGE;
-                printf("ORANGE: %d\n", c);
-                break;
-            case 2:
-                c = YELLOW;
-                printf("YELLOW: %d\n", c);
-                break;
-            case 3:
-                c = GREEN;
-                printf("GREEN: %d\n", c);
-                break;
-            case 4:
-                c = BLUE;
-                printf("BLUE: %d\n", c);
-                break;
-            case 5:
-                c = INDIGO;
-                printf("INDIGO: %d\n", c);
-                break;
-            case 6:
-                c = VIOLET;
-                printf("VIOLET: %d\n", c);
-                break;
-            default:
-                printf("AHHH, I'm color blind\n");
-        }
-    }
+    printf("\nRED: %d\n", RED);
+    printf("ORANGE: %d\n", ORANGE);
+    printf("YELLOW: %d\n", YELLOW);
+    printf("GREEN: %d\n", GREEN);
+    printf("BLUE: %d\n", BLUE);
+    printf("INDIGO: %d\n", INDIGO);
+    printf("VIOLET: %d\n\n", VIOLET);
 
     return 0;
 }
