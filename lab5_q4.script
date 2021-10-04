@@ -1,0 +1,85 @@
+Benjamin Wilson
+Lab 5
+October 4, 2021
+
+Script started on 2021-10-04 17:31:34-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="203" LINES="55"]
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ gcc -g -Wall lab5_q4.c -o q4
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ ./q4
+
+
+-----Welcome to Benjamin Wilson's Zodiac Calander-----
+
+
+
+D: Enter a date for zodiac sign
+I: Information
+Q: Quit
+Enter choice: i
+
+This calander is based on the Tropical Zodiac system.
+It does account for leap years, however, there is varying
+information on leap years and the dates of the cusps for
+each sign. Luckily, the tropical dates account for leap years.
+The year limit from 1 C.E. to 2200 C.E. is based on the
+Gregorian calander.
+For more info on the zodiac calander:
+https://en.wikipedia.org/wiki/Zodiac#Twelve_signs
+
+
+D: Enter a date for zodiac sign
+I: Information
+Q: Quit
+Enter choice: d
+
+Please enter your birth date (mm/dd/yyyy) after year 1 C.E. and before year 2200 C.E.: 08/28/2002
+You did NOT enter a leap year!
+August 28, Virgo
+
+D: Enter a date for zodiac sign
+I: Information
+Q: Quit
+Enter choice: D
+
+Please enter your birth date (mm/dd/yyyy) after year 1 C.E. and before year 2200 C.E.: -2/34/90000
+Invalid month or year
+
+D: Enter a date for zodiac sign
+I: Information
+Q: Quit
+Enter choice: d
+
+Please enter your birth date (mm/dd/yyyy) after year 1 C.E. and before year 2200 C.E.: 1/1/2020
+You entered a leap year!
+
+January 1, Capricorn
+
+D: Enter a date for zodiac sign
+I: Information
+Q: Quit
+Enter choice: d
+
+Please enter your birth date (mm/dd/yyyy) after year 1 C.E. and before year 2200 C.E.: 2/29/2019
+You did NOT enter a leap year!
+Invalid day date
+
+D: Enter a date for zodiac sign
+I: Information
+Q: Quit
+Enter choice: d
+
+Please enter your birth date (mm/dd/yyyy) after year 1 C.E. and before year 2200 C.E.: 2/29/2016
+You entered a leap year!
+
+February 29, Pisces
+
+D: Enter a date for zodiac sign
+I: Information
+Q: Quit
+Enter choice: q
+
+The stars must be misaligned, have a nice day :)
+
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ exit
+exit
+
+Script done on 2021-10-04 17:34:07-06:00 [COMMAND_EXIT_CODE="0"]
