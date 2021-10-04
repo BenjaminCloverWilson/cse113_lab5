@@ -1,0 +1,18 @@
+Benjamin Wilson
+Lab 5
+October 3, 2021
+
+Script started on 2021-10-03 23:04:19-06:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="192" LINES="11"]
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ exit[2Plsscript array_struct.scriptcd lab5[Kcse113[2Plab5script array_struct.scriptls[Kexit[Kgcc -g -Wall lab5_q2.c q2[K[K-o q2
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ ./q2
+RED: 18
+ORANGE: 19
+YELLOW: 5
+GREEN: 6
+BLUE: 7
+INDIGO: 14
+VIOLET: 15
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ exit
+exit
+
+Script done on 2021-10-03 23:04:55-06:00 [COMMAND_EXIT_CODE="0"]

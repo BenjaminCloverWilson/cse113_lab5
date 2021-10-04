@@ -1,0 +1,39 @@
+Benjamin Wilson
+Lab 5
+October 3, 2021
+
+Script started on 2021-10-03 19:55:20-06:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="203" LINES="55"]
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ gcc -g -Wall struct[K[K[K[K[K[Karray_struct.c a[K-o array_struct
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ ./array_struct
+
+Subject Letter ID: A
+Subject (A) Age: 23
+Subject (A) Height: 74
+
+Subject Letter ID: B
+Subject (B) Age: 22
+Subject (B) Height: 64
+
+Subject Letter ID: C
+Subject (C) Age: 19
+Subject (C) Height: 68
+
+Subject Letter ID: D
+Subject (D) Age: 20
+Subject (D) Height: 76
+
+Subject Letter ID: E
+Subject (E) Age: 22
+Subject (E) Height: 62
+
+The minimum age is: 19
+The minimum height is: 62
+The maximum age is: 23
+The maximum height is: 76
+
+The average age is: 21.200000
+The average height is: 68.800000
+]0;ben@Clover-VirtualBox: ~/cse113/lab5[01;32mben@Clover-VirtualBox[00m:[01;34m~/cse113/lab5[00m$ exit
+exit
+
+Script done on 2021-10-03 19:58:36-06:00 [COMMAND_EXIT_CODE="0"]

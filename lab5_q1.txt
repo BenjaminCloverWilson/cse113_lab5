@@ -1,0 +1,33 @@
+Arrays are useful when there is a lot of related data under one data type.
+It allows for all this related data to be referred to by one symbolic
+name when writing/reading code. Arrays are a fixed size that are stored
+in a sequence of memory locations. Arrays are also easily accessed by
+square braces and an index value. With all this in mind, let's say
+that you have gathered the integer temperatures (Celcius) every day in 2020;
+and you have decided to convert these temperatures to integer fahrenheit
+units. All 365 values can be easily stored in an array, and converted by
+a function that utilizes a basic for-loop and the Celcius-to-fahrenheit
+mathematical formula that moves through each temperature one-by-one.
+
+But, two weaknesses of arrays is that only one data type can be stored
+under one variable of a fixed size. Structures address this by being
+a user-defined data type that can house potentially different data types;
+this user-defined data type can then be used many times to initialize
+different variables (that now store/refer to the different diverse struct
+members). So, let's say that you have a bunch of medications to keep
+track of in a pharmacy, and need to be able to print out its information
+when a sale needs to be made. You would need the name of the medication
+(char array), dosage in grams (double), company name (char array),
+the number of units left in stock (int), and so on. You would use
+a structure to create a data type that holds all these values,
+house all the information for the countless medications that could
+arise (structures do not have a fixed size), and the dot operator
+to print out this information once stored in the system (by hard
+coding or a function).
+
+Keep in mind, that arrays and structures can be used in tandem. That is,
+an array can be initized as a user-defined structure data type. And, in this
+case, the strengths of both can be used together. As in array_struct.c,
+potentially hundreds or thousands of subjects could have their information
+stored (with their respective data types) in struct data_t data[]. So,
+these two things have a lot of potential and versatility.
