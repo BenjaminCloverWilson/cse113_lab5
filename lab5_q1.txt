@@ -31,3 +31,14 @@ case, the strengths of both can be used together. As in array_struct.c,
 potentially hundreds or thousands of subjects could have their information
 stored (with their respective data types) in struct data_t data[]. So,
 these two things have a lot of potential and versatility.
+
+Examples)
+
+struct example_t 
+{
+    int member_one;
+    double member_two;
+    char member_three;
+} example, structure_array[SIZE];
+
+int a[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
