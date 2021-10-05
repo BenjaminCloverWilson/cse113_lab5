@@ -1,0 +1,70 @@
+Purpose:
+    The programs in this lab essentially applied structures and enumerations
+    to complete previously tedious tasks by either improving upon previously
+    written programs, or by applying old concepts. Lab5.c (and array.c and
+    array.h) improves upon lab3.c as it attempts to place all function calls
+    and 13 statistical array calculations within one universal function to slim
+    down the code and be more efficient with storage/calls. Array_struct.c
+    attempts to use a struct data type array to organize data and make calculations.
+    lab5_q1.txt simply describes the advantages and disadvantages of arrays vs.
+    structures. lab5_q2.c displays the efficency of enumerations when creating
+    constants by only declaring 3 out of 7 constants in an easy to read list;
+    it then prints out the numerical values of the seven colors. lab5_q3.c once
+    again explores structures by calling the user-inputted coordinates of
+    two points stored in two structures to calculate euclidean and manhattan
+    distances between the two points. And, finally, lab5_q4.c uses enumerations,
+    structures, and a switch statement to return the tropical zodiac sign
+    of a user-inputted date (with a simple menu).
+
+Pesudo-Code:
+    None for this lab
+
+Conclusion:
+    a) As the purpose would hint towards, I learned a lot about structures,
+    (what they are and how they work), enumerations, and reviewed some old
+    concepts like switch statements, math.h, header files, while loops, and
+    user input. Structures are really just user defined data types with a
+    morphible storage amount. And, they can be quite powerful with arrays,
+    because you can start to store a lot of info accross more than one data type.
+    Enumerations are nice, but I feel this lab was kind of shy to utilize them.
+    This lab essentially just used enumerations as ways to declare lots of
+    constants in one place, quite easily. And, I actually used scanf() in a
+    new way, using a space to get rid of an enter, instead of that long 
+    implementation of getchar() and a tmp variable. I also learned about
+    zodiac signs.
+
+    b) As the prelab was simply review of arrays, I thought that pair
+    programming was not particularly helpful in solving any problems.
+    Although it was still nice to have someone to review the code with,
+    it was not extremely helpful as we both had a good understanding of
+    arrays already. But, the review of arrays was itself helpful for the main
+    lab. My buddy was late to the lab session but, apart from that, no other
+    problems were experienced.
+
+    c) No, I did not work with anyone on the lab. I found that I grasped the
+    ideas of structures and enumerations easily after reviewing the class
+    sides and playing around with a little bit. My buddy and I did not carry out
+    a review session of each other's code. We did not find it necessary.
+
+    d) One problem I had was in lab5.c. I oringinally did not understand that
+    structures were custom data types. So, I struggled to figure out how
+    to store the 13 values in get_summary(); but I figured out that I should
+    just make it return a struct variable, and store each call in a member
+    of that structure. In lab5_q2.c, I struggled to print out the enumeration,
+    because I was treating it like a structure. And, that worked, assigning
+    members of the enumeration to a variable before printing it. But, I realized,
+    that each member of the enumeration was a #define constant, so I could just
+    call on them directly in the print statements. And, finally, I struggled in
+    lab5_q4.c with user input only. For some reason, the getchar() method was
+    being difficult; it was not skipping the enter key properly, and it would only
+    work one time in an execution of a program (memorized the first menu choice)
+    so ended up switching to scanf() functions, which worked wonders in less lines
+    of code. All I had to do was place a ' ' character before accepting input.
+
+    e) The main improvement that jumps out to me is in labb5_q4.c. I would like
+    the program to adjust for years because apparantly the cusps change over decades,
+    of time. So, I would like to adjust for that. I'm also not entirely sure why
+    we needed to account for leap years. The wikipedia article said that tropical
+    zodiacs don't change with leap years. But, if I ever find out what they do to
+    tropical zodiacs, I'll improve on that. Otherwise, everything seemed suitable
+    me.
